@@ -6,19 +6,19 @@ from albums import AlbumData
 
 class Bowie(AlbumData):
 
-	consumer_key = "ZUJev3hxZvX9yStagYcgMEnQQ"
-	cosumer_secret = "RLW70hicBujrec7SkeeO2Ffw9D3Gyhy56sPaCckGwxSFiU0mBu"
-	access_token = "950498380496687109-Sf6uoXthcsoDHBFI95ZOPiBur48FpIw"
-	access_token_secret = "j5bPvv0Oks6guBScEYdHfFzIL1gVDLcaMv03x265WqJuh"
+	consumer_key = "#"
+	cosumer_secret = "#"
+	access_token = "#"
+	access_token_secret = "#"
 	db_conn = ''
 
 	def __init__(self):
 		super().__init__()
 
-		connection = pymysql.connect(host='d6q8diwwdmy5c9k9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-								 user='va4rl5lzx7kz4zao',
-								 password='qrqz1ex6via44ks2',
-								 db='lo6tvwoyy3tbsr6n',
+		connection = pymysql.connect(host='#',
+								 user='#',
+								 password='#',
+								 db='#',
 								 charset='utf8mb4',
 								 cursorclass=pymysql.cursors.DictCursor)
 
